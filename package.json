@@ -1,0 +1,30 @@
+{
+  "name": "@vlab-research/chatbase-gcs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "_test": "mocha -w --colors --timeout 5000 lib/**/*.test.js",
+    "test": "nyc npm run _test",
+    "report": "nyc report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlab-research/chatbase-gcs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlab-research/chatbase-gcs/issues"
+  },
+  "homepage": "https://github.com/vlab-research/chatbase-gcs#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "sinon": "^7.2.7"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^2.4.2"
+  }
+}
